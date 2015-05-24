@@ -1,0 +1,36 @@
+*{
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+}
+body {
+  font-family: Helvetica;
+  font-size: 1.25em;
+  background-color: #004081
+}
+h1{
+  text-align: center;
+}
+.heading{  
+ /* border-top-left-radius: 2em;
+  border-top-right-radius: 2em;
+  border: solid 3px */
+  /*border: solid .25em;
+  border-top-left-radius: 2em;
+  border-top-right-radius: 2em*/
+  border-bottom: solid
+}
+.lesson{
+  background-color: #0066CC;
+  color: white;
+  border: solid .25em;
+  border-radius: 2em;
+  margin: 1em
+}
+.summary{
+ margin: 1em
+}
+a{
+  color: white
+}

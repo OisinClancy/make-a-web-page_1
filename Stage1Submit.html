@@ -1,0 +1,80 @@
+<!DOCTYPE html> <!-- this is how you write comments in html-->
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title> Oisin's Notes</title>
+  </head>
+  <body>
+    <!-- remember to use div tags around every seperate entity -->
+    <div class="lesson">
+      <div class = "heading">
+       <h1> Lesson 1</h1>
+      </div>
+      <div class="summary">
+        <div>
+        <p><b>World Wide Web</b> - Consists of a massive system of interconnected
+    computers that communicate with each other through use of HTML Documents. </p>
+        </div>
+        <div>
+          <p><b>HTML</b> - Hyper Text Markup Language </p>
+        </div>
+        <div>
+          <p><b> Tags</b> - Different elements are found inside brackets such as &lt; &gt; or closing brackets &lt; / &gt;</p>
+        </div>
+        <div>
+        <p><b> Elements</b> - These are the properties that are found inside tags such as 'b' for <b> bold</b> and 'em' for <em> italic </em></p>
+        </div>
+        <div>
+        <p><b> Attribute</b> - These are attached to elements to help such as 'src' for an image or 'href' for a <a href="http://en.wikipedia.org/wiki/Hyperlink"> link </a> </p>
+        </div>
+        <div>
+        <p><b> Inline/Block </b>- Two different types of elements. Block elements form 'invisivble boxes' around
+        the content they surround.
+        </div>
+      </div>
+  </div>
+  <div class="lesson">
+    <div class="heading">
+    <h1> Lesson 2 </h1>
+    </div>
+       <div class="summary">
+         <div>
+         <p><b> Different Types of Code </b></p>
+          <ul> 
+            <li><b> HTML </b> - Structure </li>
+            <li><b> CSS </b> - Style </li>
+            <li><b> Javascipt </b> - Interactive </li>
+          </ul>
+       </div>
+      <div>
+        <p><b> DOM </b> - A general convention for the format of how to write code regardless of language. The nodes of every document are organized in a tree structure. </p>
+    </div>
+    <div>
+  <p>When looking at html pages it is useful to imagine everything as boxes within boxes. All the elements are boxes that may have have smaller boxes within them or be contained within lager ones. The use of a &lt; div &gt; tag allows you to create these boxes. </p>
+      </div>
+    </div>
+    </div>
+  <div class="lesson">
+  <div class="heading">
+    <h1> Lesson 3 </h1>
+    </div>
+    <div class="summary">
+        <p> <b> Repetition </b> - It is very important to try and avoid repetition in programming by unecessarily rewriting the same code over and over. It is better to try and group similar elements under the same class and apply styles . This means less code needs to be written and makes it easier if there are mistakes to be corrected or changes to be made.
+        <p> <b> Selector </b> - This tells the browser what element you want the rules to apply to. In between the curly braces {  } is where the rule is placed. There should be a 'property' and a 'value' such as font-family: futura </p>
+          <p> <b> Comments </b> - These are lines of text that the computer ignores. They are just there so that programmers can leave notes for other people (or themselves) to read. </p>
+          <ul>
+            <li>In HTML, code comments begin with &lt; !-- and end with -- &gt;. Everything in between is ignored. </li>
+            <li> In CSS, code comments begin with /* and end with */. </li>
+          </ul>
+          <p> <b> Box Sizing </b> - HTML elements are boxes and each box has 4 components. These are the content, padding, border and margin.Because there are so many components to each box, it can often be hard to get the size of a box just right.
+            There are two techniques you can use to help deal with sizing issues. </p>
+          <ul>
+            <li> Set sizes in terms of percentages rather than pixels. </li>
+            <li> Set the box-sizing attribute to border-box for every element. </li>
+          </ul>
+          <p> <b> Box Positioning </b> - Divs are block elements (as opposed to inline), so by default they take up the entire width of a page. Adding the rule display: flex; to the appropriate CSS will override this behavior and let divs appear next to each other. </p>
+    </div>
+    </div>
+    </body>
+  </html>
